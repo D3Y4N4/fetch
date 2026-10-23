@@ -1,11 +1,10 @@
-<<<<<<< HEAD
+
 # fetch
 Replaced fastfetch with a pure Bash script for full layout &amp; image control {No Fastfetch Required}
 =======
 # Custom System Fetch Script for Hyprland
 
 ![Preview](preview.png)
-![Preview](preview2.png)
 
 A lightweight, self-contained **Bash system fetch script** designed for terminal customizers looking for pixel-perfect layout control, centered logo headers, and styled two-column system specifications without relying on external fetch binaries like `fastfetch` or `neofetch`.
 
@@ -147,4 +146,3 @@ funcsave fastfetch
 * **Change Logo:** Replace `~/.config/fastfetch/logo.png` with any image of your choice.
 
 * **Adjust Image Coordinates / Grid Spacing:** Edit lines 11–15 in `fetch.sh` to modify Kitty `icat` sizing (`--place 72x12@21x0`) or cursor offset (`tput cup 13 0`).
->>>>>>> fb7039d (Add custom fastfetch script, logo, and README)
